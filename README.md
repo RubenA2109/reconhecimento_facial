@@ -1,1 +1,6 @@
 # reconhecimento_facial
+
+
+api-url : https://jumirpcwhwyjomkgglwv.supabase.co/rest/v1/
+
+anon public key : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1bWlycGN3aHd5am9ta2dnbHd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNDQ2MDksImV4cCI6MjA5MzcyMDYwOX0.SuHTAOYAZacdegyn1-WsPhGNkjLfrETEGuijC97lIuE
