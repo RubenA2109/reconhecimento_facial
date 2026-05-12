@@ -38,7 +38,7 @@ app.use('/models', express.static('models'));
 
 
 
-const supabase = createClient("https://sndistegnegebqkfegyn.supabase.co", "YeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1bWlycGN3aHd5am9ta2dnbHd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNDQ2MDksImV4cCI6MjA5MzcyMDYwOX0.SuHTAOYAZacdegyn1-WsPhGNkjLfrETEGuijC97lIuE");
+const supabase = createClient("https://jumirpcwhwyjomkgglwv.supabase.co", "YeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp1bWlycGN3aHd5am9ta2dnbHd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNDQ2MDksImV4cCI6MjA5MzcyMDYwOX0.SuHTAOYAZacdegyn1-WsPhGNkjLfrETEGuijC97lIuE");
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
@@ -47,7 +47,7 @@ app.post("/upload", upload.single("photo"), async (req, res) => {
 
   try {
     const emotion = req.body.emotion;
-    const nameofstudent = req.body.nameofstudent;
+    const nameofstudent = req.body.name;
 
     const file = req.file;
     const fileName =
